@@ -4,11 +4,11 @@ local lush = require("lush")
 local hsl = lush.hsl
 local hsluv = lush.hsluv
 
-local bgc = hsl(30, 10, 13)
-local lnbg = hsl(30, 10, 12)
+local bgc = hsl(30, 10, 9)
+local lnbg = hsl(30, 10, 7)
 local lnfg = hsl(30, 13, 40)
 -- local dbg = hsl(30, 10, 13)
-local dbg = hsl(30, 10, 15)
+local dbg = hsl(30, 10, 11)
 
 local theme = lush(function(injected_functions)
     local sym = injected_functions.sym
